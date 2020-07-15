@@ -1,0 +1,70 @@
+Answer 1-  log() :- used to print the O/P on console.
+error():-Used to log error message to the console.
+warn() :-Used to log warning message to the console.
+clear():-Used to clear the console.
+time() and timeEnd():- used to know the amount of time spend by a block or a function.
+table():-This method allows us to generate a table inside a console.
+count():- used to count the number that the function hit by this counting method.
+group() and groupEnd():-llows us to group contents in a separate block, which will be indented.
+custom console logs:- used add Styling to the console logs in order to make logs Custom .
+
+
+Answer 2-
+var is used to declare global variable for example in the code given below we have declared variable inside if body but we can access the variable outside of the body.
+function m(){
+    if(true){
+        var a = "Hello";
+    }
+    console.log(a);
+}
+m();
+Output:- Hello
+
+
+let is used to create locacl variable for example in the code given below we have declared variable inside if body and we can not access the variable outside the if body.
+function m(){
+    if(true){
+        let a = "Hello";
+    }
+    console.log(a);
+}
+m();
+Output:- Error
+
+
+const is used to make the value of variable permanent.Which means we can not change the value of const variable once a variable is defined
+function m(){
+    const a = "hello";
+    console.log(a);
+    a = "hi";
+    console.log(a);
+    
+}
+m();
+Output:-  hello
+          Error
+Answer 3-  Data Types respresents the type of data a variable can store.There are eight basic data types in JavaScript. These are-
+1-String:-Group pf characters is called String.
+    Example :-  
+    i)let str = "Hello";
+    ii)let str2 = 'Single quotes are ok too';
+2-Boolean  :-The boolean type has only two values: true and false.
+ Example :-  
+   i)let nameFieldChecked = true;
+   ii)let ageFieldChecked = false;
+ 3-Number   :-  number for numbers of any kind: integer or floating-point, integers are limited by ±253.
+ 	NaN represents a computational error. It is a result of an incorrect or an undefined mathematical operation, for instance:
+ 	Example :- 
+    i)let n = 123;
+    ii) alert( "not a number" / 2 );     //NAN  value
+
+
+ 4-bigint  :- It  is for integer numbers of arbitrary length.
+ 	Example-
+ 	i)// the "n" at the end means it's a BigInt
+const bigInt = 1234567890123456789012345678901234567890n;
+
+ 5-null for unknown values – a standalone type that has a single value null.
+
+6-undefined for unassigned values – a standalone type that has a single value undefined.
+     
